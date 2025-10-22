@@ -64,3 +64,64 @@ n2 = "3"; //string
 
 console.log(typeof n2); //verificar o tipo da variável
 
+//continuação do dia 22/10/2025 - aula 2
+
+//variáveis são espaços na memória onde podemos armazenar dados
+//pra cfriar variaveis precisa de algumas regras:
+//1. elas não podem começar com números;
+//2. não podemos usar espaços;
+//3. não podemos usar palavras reservadas;
+//4. javascript é case sensitive, exemplo:
+//5. é comum usar o cammelCase (ex.: alunoNoite) 🐫
+
+//há 3 tipos de variáveis: let, var e const
+
+//let é uma variável que pode ser reatribuída;
+let numeroCelular = "(21) 9 12344-7891";
+console.log(numeroCelular);
+
+numeroCelular = "(81) 9 95432-87282";
+console.log(numeroCelular);
+
+//const
+//const não pode ser alterada o valor
+
+const nacionalidade = "Brasileiro";
+console.log(nacionalidade);
+
+// nacionalidade = "Peruana";
+// console.log(nacionalidade);
+
+//var 
+// var cor = "verde";
+// console.log(cor);
+
+// tipos de dados
+
+//string "" -> textos, caracteres, palavras 
+
+let nomeDoVisitante = "Surpresa";
+
+// number -> dado usado para armazenar números
+
+let quantidadeDeLivros = 1;
+console.log(quantidadeDeLivros);
+
+//bolean (valor boleano) - é um tipo de dado que usamos para verdadeiro ou falso;
+
+//true; - verdadeiro;
+//false; - falso;
+
+let visitanteAtivo = "false";
+console.log( typeof visitanteAtivo );
+
+// null - é um valor intencionalmente vazio
+
+let saldoBancario = null;
+console.log(saldoBancario);
+
+
+//undefined -> quando criamos uma variável que não passamos valor 
+
+let presencaDoVisitante;
+console.log(presencaDoVisitante);
